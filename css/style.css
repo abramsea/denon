@@ -107,8 +107,8 @@ float:left;
 }
 
 .btn {
-	background-color:#081f2e;
-	border:2px solid #081f2e;
+	background-color:#00caf0;
+	border:2px solid #00caf0;
 	cursor:pointer;
 	color:#FFFFFF;
     font-size: 24px; 
@@ -126,9 +126,9 @@ float:left;
 	
 .btn:hover {
 	background-color:#FFFFFF;
-	border: 2px solid #081f2e;
+	border: 2px solid #00caf0;
 	-moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
-	color:#081f2e;
+	color:#00caf0;
 }
 
 .column {
@@ -149,6 +149,7 @@ float:left;
 
 .b12 {
     background: #fff;
+    margin-bottom: 0 !important;
 }
 
 .btn2_container {
@@ -159,8 +160,8 @@ float:left;
 }
 
 .btn2 {
-	background-color:#081f2e;
-	border:2px solid #081f2e;
+	background-color:#00caf0;
+	border:2px solid #00caf0;
 	cursor:pointer;
 	color:#FFFFFF;
     font-size: 18px; 
@@ -178,9 +179,9 @@ float:left;
 	
 .btn2:hover {
 	background-color:#FFFFFF;
-	border: 2px solid #081f2e;
+	border: 2px solid #00caf0;
 	-moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
-	color:#081f2e;
+	color:#00caf0;
 }
 
 .footer {
