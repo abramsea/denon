@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;
+    font-family: Helvetica, sans-serif;
+}
+
+.logo {
+    background: #081f2e;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    margin: 0 auto;
+}
+
+.block {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #081f2e;
+}
+
+.block:not(:first-of-type) {
+    margin-bottom: 100px;
+}
+
+
+.block p {
+    text-align:justify;
+    margin:30px 0;
+    font-size:22px;
+    line-height:28px;
+}
+
+.block img {
+    max-width: 100% !important;
+}
+
+.b01 {
+    background: url(../images/Denon_Upgrade_Title_04.jpg) no-repeat;
+    background-size: cover;
+    color: #081f2e;
+    text-align: center;
+}
+
+.b01 h2 {
+    font-size: 50px;
+    max-width: 60%;
+    margin: 400px auto 20px auto;
+}
+
+.b01 img {
+    margin-bottom: 350px;
+}
+
+
+.block_caption {
+    width: 100%;
+    background: #081f2e;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+
+.media-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.media-container iframe,
+.media-container object,
+.media-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.media-container-wrapper {
+max-width: 100%;
+width: 600px;
+float:left;
+	padding-bottom: 20px;
+	padding-right: 40px;
+}
+
+.boldslider {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.btn_container {
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.btn {
+	background-color:#081f2e;
+	border:2px solid #081f2e;
+	cursor:pointer;
+	color:#FFFFFF;
+    font-size: 24px; 
+    font-weight: normal;
+	text-align: center;
+	line-height: 24px;
+    padding:50px;
+	text-decoration:none;
+	transition: color .2s,border-color .2s,background-color .2s,border-color .1s;
+    transition-property: color, border-color, background-color, border-color;
+    transition-duration: 0.2s, 0.2s, 0.2s, 0.1s;
+    transition-timing-function: ease, ease, ease, ease;
+    transition-delay: 0s, 0s, 0s, 0s;
+}
+	
+.btn:hover {
+	background-color:#FFFFFF;
+	border: 2px solid #081f2e;
+	-moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
+	color:#081f2e;
+}
+
+.column {
+    width: 28%;
+    display: inline-block;
+    margin-right: 4%;
+    vertical-align: top;
+    z-index:1000;
+}
+
+.subHeader {
+    padding:20px 20px 10px 20px;
+    background:url("../images/Denon-Microsite-triangle-white.png") no-repeat;
+    background-size:contain;
+    background-position:right center;
+    background-color:#d7ebfb;
+}
+
+.b12 {
+    background: #fff;
+}
+
+.btn2_container {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+	background-color:#081f2e;
+	border:2px solid #081f2e;
+	cursor:pointer;
+	color:#FFFFFF;
+    font-size: 18px; 
+    font-weight: normal;
+	text-align: center;
+	line-height: 18px;
+    padding:15px;
+	text-decoration:none;
+	transition: color .2s,border-color .2s,background-color .2s,border-color .1s;
+    transition-property: color, border-color, background-color, border-color;
+    transition-duration: 0.2s, 0.2s, 0.2s, 0.1s;
+    transition-timing-function: ease, ease, ease, ease;
+    transition-delay: 0s, 0s, 0s, 0s;
+}
+	
+.btn2:hover {
+	background-color:#FFFFFF;
+	border: 2px solid #081f2e;
+	-moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
+	color:#081f2e;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer p {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+
+.logo_bottom {
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;  
+  transition: all 0.2s;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.links a:first-of-type {
+    border-right: 1px solid #f2f2f2;
+}
+
+.links a:hover {
+    color: #00caf0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .b01 h2 {
+        font-size: 30px;
+        margin: 300px auto 20px auto;
+    }
+    .b01 img {
+        margin-bottom: 250px;
+    }
+
+    .column {
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .b01 h2 {
+        max-width: 80%;
+        margin: 100px auto 20px auto;
+    }
+    .b01 img {
+        margin-bottom: 50px;
+    }
+    
+    .btn {
+        padding: 30px;
+        font-size: 16px; 
+        line-height: 18x;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+}
